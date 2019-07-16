@@ -51,6 +51,7 @@ public class HomeController {
         Set<Movie> movies = new HashSet<Movie>();
         movies.add(movie);
         movies.add(movie2);
+        movies.add(movie3);
 
         //Add movies for Tom Hanks to another empty list
         Set<Movie> movies2 = new HashSet<Movie>();
