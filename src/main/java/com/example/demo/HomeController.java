@@ -30,9 +30,16 @@ public class HomeController {
         movie.setYear(2017);
         movie.setDescription("About Emojies...");
 
+        //Add a second Movie
+        Movie movie2 = new Movie();
+        movie2.setTitle("Pretty Woman");
+        movie2.setYear(1990);
+        movie.setDescription("About a Pretty Women...");
+
         //Add the movies to an empty list
         Set<Movie> movies = new HashSet<Movie>();
         movies.add(movie);
+        movies.add(movie2);
 
         //Add the list of movies to the actor's movie list
         actor.setMovies(movies);
